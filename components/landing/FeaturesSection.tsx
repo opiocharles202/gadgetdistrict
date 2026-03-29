@@ -1,12 +1,12 @@
 import { Truck, RotateCcw, ShieldCheck, Headphones, Zap, Award } from 'lucide-react';
 
 const FEATURES = [
-  { icon: Truck, title: 'Free Shipping', desc: 'On all orders over $500. Standard from just $15.', color: 'text-blue-600', bg: 'bg-blue-50', border: 'border-blue-100' },
-  { icon: RotateCcw, title: '30-Day Returns', desc: 'Changed your mind? Return for free within 30 days.', color: 'text-green-600', bg: 'bg-green-50', border: 'border-green-100' },
-  { icon: ShieldCheck, title: '2-Year Warranty', desc: 'Every product backed by full manufacturer warranty.', color: 'text-purple-600', bg: 'bg-purple-50', border: 'border-purple-100' },
-  { icon: Headphones, title: '24/7 Support', desc: 'Real humans available every hour, every day.', color: 'text-orange-600', bg: 'bg-orange-50', border: 'border-orange-100' },
-  { icon: Zap, title: 'Genuine Products', desc: '100% authentic from authorized distributors only.', color: 'text-cyan-600', bg: 'bg-cyan-50', border: 'border-cyan-100' },
-  { icon: Award, title: 'Price Match', desc: 'We beat any lower price by 5%. No questions asked.', color: 'text-amber-600', bg: 'bg-amber-50', border: 'border-amber-100' },
+  { icon: Truck, title: 'Free Shipping', desc: 'On all orders over $500. Standard from just $15.', color: 'text-black', bg: 'bg-gray-100', border: 'border-gray-200' },
+  { icon: RotateCcw, title: '30-Day Returns', desc: 'Changed your mind? Return for free within 30 days.', color: 'text-black', bg: 'bg-gray-100', border: 'border-gray-200' },
+  { icon: ShieldCheck, title: '2-Year Warranty', desc: 'Every product backed by full manufacturer warranty.', color: 'text-black', bg: 'bg-gray-100', border: 'border-gray-200' },
+  { icon: Headphones, title: '24/7 Support', desc: 'Real humans available every hour, every day.', color: 'text-black', bg: 'bg-gray-100', border: 'border-gray-200' },
+  { icon: Zap, title: 'Genuine Products', desc: '100% authentic from authorized distributors only.', color: 'text-black', bg: 'bg-gray-100', border: 'border-gray-200' },
+  { icon: Award, title: 'Price Match', desc: 'We beat any lower price by 5%. No questions asked.', color: 'text-black', bg: 'bg-gray-100', border: 'border-gray-200' },
 ];
 
 export default function FeaturesSection() {
@@ -14,7 +14,7 @@ export default function FeaturesSection() {
     <section className="py-10 sm:py-14 lg:py-16 bg-gray-50 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
-          <p className="text-orange-500 text-xs sm:text-sm font-bold uppercase tracking-widest mb-2">Why TechHaven</p>
+          <p className="text-gray-500 text-xs sm:text-sm font-bold uppercase tracking-widest mb-2">Why The Gadget District</p>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-gray-900">Shop With Confidence</h2>
         </div>
 

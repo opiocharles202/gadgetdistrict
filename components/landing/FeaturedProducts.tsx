@@ -13,7 +13,7 @@ export default function FeaturedProducts() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-end justify-between mb-6 sm:mb-8">
           <div>
-            <p className="text-orange-500 text-xs sm:text-sm font-bold uppercase tracking-widest mb-1 sm:mb-2">Hand-picked for you</p>
+            <p className="text-gray-500 text-xs sm:text-sm font-bold uppercase tracking-widest mb-1 sm:mb-2">Hand-picked for you</p>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-gray-900">Featured Products</h2>
           </div>
           <Link href="/shop" className="hidden sm:flex items-center gap-1.5 text-sm font-semibold text-gray-500 hover:text-black transition-colors border border-gray-200 hover:border-gray-400 px-4 py-2 rounded-xl group">

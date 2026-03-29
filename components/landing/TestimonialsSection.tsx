@@ -3,19 +3,19 @@ const REVIEWS = [
     name: 'Marcus T.',
     location: 'New York, USA',
     rating: 5,
-    text: 'Got the iPhone 15 Pro Max — absolutely incredible. Shipped next day, packaged perfectly. TechHaven is my go-to for everything tech now.',
+    text: 'Got the iPhone 15 Pro Max — absolutely incredible. Shipped next day, packaged perfectly. The Gadget District is my go-to for everything tech now.',
     product: 'iPhone 15 Pro Max',
     avatar: 'MT',
-    bg: 'bg-blue-600',
+    bg: 'bg-black',
   },
   {
     name: 'Sarah K.',
     location: 'London, UK',
     rating: 5,
-    text: 'The MacBook Pro M3 Max is a beast. TechHaven had the best price I found anywhere online. Customer service was also super helpful when I had questions.',
+    text: 'The MacBook Pro M3 Max is a beast. The Gadget District had the best price I found anywhere online. Customer service was also super helpful when I had questions.',
     product: 'MacBook Pro M3 Max',
     avatar: 'SK',
-    bg: 'bg-purple-600',
+    bg: 'bg-gray-800',
   },
   {
     name: 'James O.',
@@ -24,7 +24,7 @@ const REVIEWS = [
     text: 'Sony WH-1000XM5 headphones arrived in 3 days. The noise cancellation is absolutely insane. Will definitely shop here again.',
     product: 'Sony WH-1000XM5',
     avatar: 'JO',
-    bg: 'bg-orange-600',
+    bg: 'bg-gray-700',
   },
   {
     name: 'Priya M.',
@@ -33,7 +33,7 @@ const REVIEWS = [
     text: 'Ordered the ASUS ROG Zephyrus for gaming. Setup was smooth, product was genuine and sealed. Checkout was super fast. 10/10.',
     product: 'ASUS ROG Zephyrus G14',
     avatar: 'PM',
-    bg: 'bg-emerald-600',
+    bg: 'bg-gray-600',
   },
 ];
 
@@ -42,7 +42,7 @@ export default function TestimonialsSection() {
     <section className="py-10 sm:py-14 lg:py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
-          <p className="text-orange-500 text-xs sm:text-sm font-bold uppercase tracking-widest mb-2">Real Customers</p>
+          <p className="text-gray-500 text-xs sm:text-sm font-bold uppercase tracking-widest mb-2">Real Customers</p>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-gray-900">What People Are Saying</h2>
         </div>
 

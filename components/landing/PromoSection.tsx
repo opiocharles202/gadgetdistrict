@@ -7,11 +7,11 @@ export default function PromoSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
           <div className="relative overflow-hidden rounded-2xl bg-black p-6 sm:p-8 lg:p-10 min-h-[200px] sm:min-h-[240px] flex flex-col justify-between">
-            <div className="absolute -top-20 -right-20 w-64 h-64 bg-orange-500/10 rounded-full pointer-events-none" />
+            <div className="absolute -top-20 -right-20 w-64 h-64 bg-white/10 rounded-full pointer-events-none" />
             <div>
-              <div className="inline-flex items-center gap-1.5 bg-orange-500/20 rounded-full px-3 py-1 mb-4">
-                <Zap className="w-3 h-3 text-orange-400" />
-                <span className="text-orange-400 text-xs font-bold">Up to 25% Off</span>
+              <div className="inline-flex items-center gap-1.5 bg-white/20 rounded-full px-3 py-1 mb-4">
+                <Zap className="w-3 h-3 text-white" />
+                <span className="text-white text-xs font-bold">Up to 25% Off</span>
               </div>
               <h3 className="text-white text-xl sm:text-2xl lg:text-3xl font-black mb-2 leading-tight">
                 Premium Laptops<br />Sale
@@ -23,7 +23,7 @@ export default function PromoSection() {
             </Link>
           </div>
 
-          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-orange-500 to-orange-600 p-6 sm:p-8 lg:p-10 min-h-[200px] sm:min-h-[240px] flex flex-col justify-between">
+          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-700 to-gray-900 p-6 sm:p-8 lg:p-10 min-h-[200px] sm:min-h-[240px] flex flex-col justify-between">
             <div className="absolute -top-20 -right-20 w-64 h-64 bg-white/10 rounded-full pointer-events-none" />
             <div>
               <div className="inline-flex items-center gap-1.5 bg-white/20 rounded-full px-3 py-1 mb-4">

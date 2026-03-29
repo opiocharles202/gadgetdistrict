@@ -12,7 +12,7 @@ export default function Footer() {
                 <Zap className="w-5 h-5 text-black" />
               </div>
               <span className="text-xl font-bold text-white">
-                Tech<span className="text-orange-400">Haven</span>
+                The Gadget<span className="text-gray-400"> District</span>
               </span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               {[Twitter, Instagram, Facebook, Youtube].map((Icon, i) => (
-                <a key={i} href="#" className="w-9 h-9 bg-gray-800 hover:bg-orange-500 text-gray-400 hover:text-white rounded-lg flex items-center justify-center transition-all">
+                <a key={i} href="#" className="w-9 h-9 bg-gray-800 hover:bg-white text-gray-400 hover:text-black rounded-lg flex items-center justify-center transition-all">
                   <Icon className="w-4 h-4" />
                 </a>
               ))}
@@ -63,9 +63,9 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="your@email.com"
-                className="flex-1 bg-gray-800 border border-gray-700 text-white placeholder-gray-500 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-orange-500"
+                className="flex-1 bg-gray-800 border border-gray-700 text-white placeholder-gray-500 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-white"
               />
-              <button className="p-2 bg-orange-500 hover:bg-orange-400 text-white rounded-lg transition-colors">
+              <button className="p-2 bg-white hover:bg-gray-200 text-black rounded-lg transition-colors">
                 <Mail className="w-4 h-4" />
               </button>
             </div>
@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} TechHaven. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} The Gadget District. All rights reserved.</p>
           <div className="flex gap-6">
             {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((item) => (
               <a key={item} href="#" className="text-gray-500 hover:text-gray-300 text-sm transition-colors">{item}</a>

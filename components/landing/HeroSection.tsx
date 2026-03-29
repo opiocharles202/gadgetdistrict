@@ -12,22 +12,22 @@ export default function HeroSection() {
   return (
     <section className="relative bg-black overflow-hidden">
       <div className="absolute inset-0 pointer-events-none select-none">
-        <div className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-orange-500/8 rounded-full blur-3xl" />
+        <div className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-white/8 rounded-full blur-3xl" />
         <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-white/4 rounded-full blur-3xl" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-orange-600/5 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-white/5 rounded-full blur-3xl" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-0 sm:pt-16 lg:pt-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="order-2 lg:order-1 pb-12 lg:pb-20">
-            <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/20 rounded-full px-3 py-1.5 mb-6 sm:mb-8">
-              <span className="w-1.5 h-1.5 bg-orange-400 rounded-full animate-pulse" />
-              <span className="text-orange-400 text-xs sm:text-sm font-semibold">New Arrivals Just Dropped</span>
+            <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-3 py-1.5 mb-6 sm:mb-8">
+              <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse" />
+              <span className="text-white text-xs sm:text-sm font-semibold">New Arrivals Just Dropped</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-white leading-[1.05] mb-4 sm:mb-6">
               Premium Tech.
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-300">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-300 to-gray-500">
                 Unbeatable Prices.
               </span>
             </h1>
@@ -54,7 +54,7 @@ export default function HeroSection() {
                 { icon: Zap, label: 'Genuine Products' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-1.5 text-white/50">
-                  <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-orange-400 flex-shrink-0" />
+                  <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white flex-shrink-0" />
                   <span className="text-xs sm:text-sm font-medium">{label}</span>
                 </div>
               ))}
@@ -76,7 +76,7 @@ export default function HeroSection() {
                   </div>
                   <div>
                     <p className="text-gray-900 text-xs sm:text-sm font-bold leading-tight">iPhone 15 Pro</p>
-                    <p className="text-orange-500 text-[10px] sm:text-xs font-semibold">Just added to cart!</p>
+                    <p className="text-gray-500 text-[10px] sm:text-xs font-semibold">Just added to cart!</p>
                   </div>
                 </div>
               </div>

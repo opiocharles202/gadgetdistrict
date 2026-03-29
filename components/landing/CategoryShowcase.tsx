@@ -10,7 +10,7 @@ const CATEGORIES = [
     icon: Smartphone,
     href: '/shop?category=mobile',
     image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80',
-    color: 'from-blue-600 to-blue-800',
+    color: 'from-gray-700 to-gray-900',
   },
   {
     id: 'laptop',
@@ -20,7 +20,7 @@ const CATEGORIES = [
     icon: Laptop,
     href: '/shop?category=laptop',
     image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80',
-    color: 'from-gray-800 to-gray-950',
+    color: 'from-black to-gray-900',
   },
   {
     id: 'accessories',
@@ -30,7 +30,7 @@ const CATEGORIES = [
     icon: Headphones,
     href: '/shop?category=accessories',
     image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80',
-    color: 'from-orange-500 to-orange-700',
+    color: 'from-gray-600 to-gray-800',
   },
 ];
 
@@ -40,7 +40,7 @@ export default function CategoryShowcase() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-end justify-between mb-6 sm:mb-10">
           <div>
-            <p className="text-orange-500 text-xs sm:text-sm font-bold uppercase tracking-widest mb-1 sm:mb-2">Shop by Category</p>
+            <p className="text-gray-500 text-xs sm:text-sm font-bold uppercase tracking-widest mb-1 sm:mb-2">Shop by Category</p>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-gray-900">Top Categories</h2>
           </div>
           <Link href="/shop" className="hidden sm:flex items-center gap-1.5 text-sm font-semibold text-gray-500 hover:text-black transition-colors border border-gray-200 hover:border-gray-400 px-4 py-2 rounded-xl">

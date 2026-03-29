@@ -7,10 +7,10 @@ import { Product } from '../../lib/types';
 import { useCartContext } from '../../context/CartContext';
 
 const BADGE_STYLES: Record<string, string> = {
-  'New': 'bg-blue-600 text-white',
-  'Sale': 'bg-red-600 text-white',
-  'Hot': 'bg-orange-500 text-white',
-  'Best Seller': 'bg-amber-400 text-black',
+  'New': 'bg-black text-white',
+  'Sale': 'bg-gray-700 text-white',
+  'Hot': 'bg-gray-800 text-white',
+  'Best Seller': 'bg-white text-black border border-gray-200',
 };
 
 interface ProductCardProps {

@@ -9,9 +9,9 @@ export default function AnnouncementBar() {
 
   return (
     <div className="bg-black text-white text-xs sm:text-sm py-2 px-4 relative flex items-center justify-center gap-2 min-h-[36px]">
-      <Truck className="w-3.5 h-3.5 flex-shrink-0 text-orange-400" />
+      <Truck className="w-3.5 h-3.5 flex-shrink-0 text-white" />
       <span className="text-center">
-        <span className="font-semibold text-orange-400">Free Shipping</span>
+        <span className="font-semibold text-white">Free Shipping</span>
         <span className="text-white/80"> on all orders over $500 · </span>
         <span className="font-semibold text-white">Shop now</span>
       </span>

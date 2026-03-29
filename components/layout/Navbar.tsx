@@ -26,7 +26,7 @@ export default function Navbar() {
               <Zap className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold text-gray-900">
-              Tech<span className="text-orange-500">Haven</span>
+              The Gadget<span className="text-gray-500"> District</span>
             </span>
           </Link>
 
@@ -51,7 +51,7 @@ export default function Navbar() {
               <ShoppingCart className="w-4 h-4" />
               <span className="hidden sm:inline">Cart</span>
               {totals.itemCount > 0 && (
-                <span className="absolute -top-2 -right-2 w-5 h-5 bg-orange-500 text-white text-xs rounded-full flex items-center justify-center font-bold">
+                <span className="absolute -top-2 -right-2 w-5 h-5 bg-white text-black text-xs rounded-full flex items-center justify-center font-bold border border-black">
                   {totals.itemCount > 99 ? '99+' : totals.itemCount}
                 </span>
               )}
